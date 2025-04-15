@@ -12,6 +12,19 @@ a:hover{
     color:gray
 }
 
+img {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.newstext {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .news {
     background-color: white;
     width: 800px;
@@ -22,7 +35,7 @@ a:hover{
 }
 
 #header {
-    
+    position: relative;
     background-color: #f0d300;
     text-align: center;
     padding: 20px;
@@ -36,15 +49,30 @@ a:hover{
 #blog {
     color:white
 }
-
 #newsfeed {
-    background-color: rgb(192, 192, 192);
+    position: relative;
+    top: 0px;
     width: 900px;
     margin: 60px;
-
-
-
+    display: inline-block;
 }
 #main {
+    position: relative;
     background-color: whitesmoke;
+}
+.sidebar {
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 250px;
+    display: inline-block;
+    background-color: white
+}
+.sidebartitle {
+    color: rgb(46, 46, 46);
+    background-color:gray;
+    padding: 7px;
+    position: relative;
+    top: 15px;
 }
