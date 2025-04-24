@@ -8,23 +8,38 @@
 body {
     font-size: 1em;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    background: #e6e6e6e6
+    background: #f3f3f3e6
 }
 h1 {
     font-size-adjust: 2.5em;
     color: #4e4e4e;
+
+}
+h3 {
+    padding: 7px;
+    background-color: #c0c0c0;
+    color: #4e4e4e;
+    display: ;
 }
 a {
     text-decoration: none;
 }
 
-a:link, a:visited {
+a:link,  a:visited {
+    color:#f7b600;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#header a:link, #header a:visited {
     color:#fff;
     padding: 8px;
 }
-a:hover {
+#header a:hover {
     background-color: white;
     color:#f7b600;
+    text-decoration: none;
 }
 /*layout*/
 
@@ -42,8 +57,20 @@ text-align: center;
 #main {
     width: 920px;
     margin: 0px auto;
-    background-color: #fff;
     padding: 15px;
+}
+#newsfeed {
+    width: 640px;
+    float: left;
+    padding: 10;
+    position: relative;
+}
+.news{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    width: 640px;
+    position: relative;
 }
 .news-data {
     font-size: 0.8em;
@@ -52,19 +79,19 @@ text-align: center;
     margin-bottom:10px;
     display:block;
 }
-#newsfeed {
-    padding: 15px;
-    background-color: #fff;
-    width: 640px;
-    float: left;
-}
 .newstitle {
     color:#f7b600
 }
 #sidebar {
-    background-color: #fff;
     width: 240px;
     float: right;
+    position: relative;
+    left: 20px;
+}
+.sidebar-content {
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px;
 }
 #footer {
     text-align: center;
